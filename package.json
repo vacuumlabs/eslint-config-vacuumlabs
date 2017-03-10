@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-vacuumlabs",
+  "version": "1.0.0",
+  "description": "ESLint shareable config for the VacuumLabs style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vacuumlabs/eslint-config-vacuumlabs.git"
+  },
+  "keywords": [
+    "eslint",
+    "VacuumLabs",
+    "lint",
+    "linter"
+  ],
+  "author": "VacuumLabs",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/vacuumlabs/eslint-config-vacuumlabs/issues"
+  },
+  "homepage": "https://github.com/vacuumlabs/eslint-config-vacuumlabs#readme",
+  "peerDependencies": {
+    "eslint": ">=3.17.1",
+    "eslint-plugin-import": ">=2.2.0",
+    "eslint-plugin-react": ">=6.10.0"
+  }
+}
