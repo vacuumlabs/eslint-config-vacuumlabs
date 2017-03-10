@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vacuumlabs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ESLint shareable config for the VacuumLabs style",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/vacuumlabs/eslint-config-vacuumlabs#readme",
   "peerDependencies": {
+    "babel-eslint": ">=7.1.1",
     "eslint": ">=3.17.1",
     "eslint-plugin-import": ">=2.2.0",
     "eslint-plugin-react": ">=6.10.0"

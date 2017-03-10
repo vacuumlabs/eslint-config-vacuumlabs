@@ -1,6 +1,11 @@
 'use strict';
 
 module.exports = {
+  parser: 'babel-eslint',
+  settings: {
+    'import/parser': 'babel-eslint',
+    'import/ignore': ['node_modules', 'assets', '\\.(scss|less|css|json)$'],
+  },
   rules: {
     'no-compare-neg-zero': 2,
     'no-cond-assign': 2,
