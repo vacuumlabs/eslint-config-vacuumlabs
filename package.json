@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vacuumlabs",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "ESLint shareable config for the VacuumLabs style",
   "main": "index.js",
   "scripts": {
