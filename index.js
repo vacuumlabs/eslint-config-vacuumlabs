@@ -142,6 +142,7 @@ module.exports = {
     'no-useless-constructor': 2,
     'no-useless-rename': 2,
     'no-var': 2,
+    'object-shorthand': 2,
     'prefer-arrow-callback': [2, {"allowUnboundThis": false}],
     'prefer-const': 2,
     'prefer-numeric-literals': 2,
