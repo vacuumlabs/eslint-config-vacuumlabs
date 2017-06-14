@@ -126,7 +126,6 @@ module.exports = {
     'space-before-blocks': [2, 'always'],
     'space-before-function-paren': [2, 'never'],
     'space-in-parens': [2, 'never'],
-    'space-infix-ops': 2,
     'space-unary-ops': [2, {'words': true, 'nonwords': false}],
     'unicode-bom': 2,
     'arrow-parens': [2, 'always'],
@@ -187,7 +186,11 @@ module.exports = {
     'Map': true,
     'Set': true,
   },
-  ecmaFeatures: {
-    'jsx': true
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
+    ecmaFeatures: {
+      'jsx': true
+    }
   }
 }
