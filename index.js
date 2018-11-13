@@ -40,7 +40,6 @@ module.exports = {
     'dot-location': [2, 'property'],
     'dot-notation': 2,
     'eqeqeq': [2, 'allow-null'],
-    'guard-for-in': 1,
     'no-alert': 2,
     'no-caller': 2,
     'no-case-declarations': 2,
