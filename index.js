@@ -100,7 +100,7 @@ module.exports = {
     'computed-property-spacing': [2, 'never'],
     'consistent-this': [2, 'self'],
     'eol-last': 2,
-    'indent': [2, 2, {'SwitchCase': 1}],
+    'indent': [2, 2, {'SwitchCase': 1, 'flatTernaryExpressions': true}],
     'jsx-quotes': [2, 'prefer-double'],
     'key-spacing': [2, {'beforeColon': false, 'afterColon': true}],
     'keyword-spacing': [1, {'before': true, 'after': true, 'overrides': {}}],
