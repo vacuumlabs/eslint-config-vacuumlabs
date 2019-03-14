@@ -5,6 +5,9 @@ module.exports = {
   settings: {
     'import/parser': 'babel-eslint',
     'import/ignore': ['node_modules', 'assets', '\\.(scss|less|css|json)$'],
+    'react': {
+      'version': 'detect',
+    },
   },
   rules: {
     'no-compare-neg-zero': 2,
