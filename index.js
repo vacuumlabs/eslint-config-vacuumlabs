@@ -108,7 +108,7 @@ module.exports = {
     'key-spacing': [2, {'beforeColon': false, 'afterColon': true}],
     'keyword-spacing': [1, {'before': true, 'after': true, 'overrides': {}}],
     'linebreak-style': [2, 'unix'],
-    'max-len': [1, {'code': 100, 'tabWidth': 2, 'ignoreStrings': true, 'ignoreTemplateLiterals': true}],
+    'max-len': [1, {'code': 100, 'tabWidth': 2, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true, 'ignoreUrls': true}],
     'new-cap': [2, {'capIsNew': false, 'newIsCap': true}],
     'new-parens': 2,
     'no-array-constructor': 2,
