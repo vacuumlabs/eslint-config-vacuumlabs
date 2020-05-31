@@ -81,7 +81,6 @@ module.exports = {
     'no-with': 2,
     'radix': 2,
     'wrap-iife': [2, 'inside'],
-    'yoda': 2,
     'strict': [2, 'never'],
     'no-delete-var': 2,
     'no-shadow-restricted-names': 2,
