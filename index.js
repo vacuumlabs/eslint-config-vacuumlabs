@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   settings: {
     'import/parser': 'babel-eslint',
     'import/ignore': ['node_modules', 'assets', '\\.(scss|less|css|json)$'],
@@ -41,7 +41,6 @@ module.exports = {
     'curly': [2, 'multi-line', 'consistent'],
     'default-case': 2,
     'dot-location': [2, 'property'],
-    'dot-notation': 2,
     'eqeqeq': [2, 'allow-null'],
     'no-alert': 2,
     'no-caller': 2,
@@ -102,7 +101,7 @@ module.exports = {
     'computed-property-spacing': [2, 'never'],
     'consistent-this': [2, 'self'],
     'eol-last': 2,
-    'indent': [2, 2, {'SwitchCase': 1, 'flatTernaryExpressions': true}],
+    'indent': 0,
     'jsx-quotes': [2, 'prefer-double'],
     'key-spacing': [2, {'beforeColon': false, 'afterColon': true}],
     'keyword-spacing': [1, {'before': true, 'after': true, 'overrides': {}}],
@@ -188,10 +187,12 @@ module.exports = {
     'Set': true,
   },
   parserOptions: {
-    ecmaVersion: 6,
     sourceType: 'module',
     ecmaFeatures: {
       'jsx': true
     }
-  }
+  },
+  env: {
+    es2021: true
+  },
 }
