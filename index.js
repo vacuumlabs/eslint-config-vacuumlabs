@@ -38,7 +38,7 @@ module.exports = {
     'use-isnan': 2,
     'valid-typeof': 2,
     'consistent-return': 2,
-    'curly': [2, 'multi-line', 'consistent'],
+    'curly': [2, 'multi-line'],
     'default-case': 2,
     'dot-location': [2, 'property'],
     'eqeqeq': [2, 'allow-null'],
