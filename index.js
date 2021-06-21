@@ -56,7 +56,6 @@ module.exports = {
     'no-implied-eval': 2,
     'no-iterator': 2,
     'no-lone-blocks': 2,
-    'no-multi-spaces': 1,
     'no-multi-str': 2,
     'no-new': 2,
     'no-new-func': 2,
