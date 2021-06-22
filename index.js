@@ -100,7 +100,6 @@ module.exports = {
     'eol-last': 2,
     'indent': 0,
     'jsx-quotes': [2, 'prefer-double'],
-    'key-spacing': [2, {'beforeColon': false, 'afterColon': true}],
     'keyword-spacing': [1, {'before': true, 'after': true, 'overrides': {}}],
     'linebreak-style': [2, 'unix'],
     'max-len': [1, {'code': 100, 'tabWidth': 2, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true, 'ignoreUrls': true}],
