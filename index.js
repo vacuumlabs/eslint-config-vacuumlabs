@@ -94,7 +94,6 @@ module.exports = {
     'block-spacing': [2, 'never'],
     'brace-style': [2, '1tbs', {'allowSingleLine': true}],
     'comma-dangle': [1, 'always-multiline'],
-    'comma-spacing': [1, {'before': false, 'after': true}],
     'comma-style': [2, 'last'],
     'computed-property-spacing': [2, 'never'],
     'consistent-this': [2, 'self'],
