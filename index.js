@@ -168,7 +168,7 @@ module.exports = {
     'import/export': 2,
     'import/imports-first': 2,
     'import/named': 2,
-    'import/namespace': 2,
+    'import/namespace': [2, {allowComputed: true}],
     'import/no-unresolved': [2, {'commonjs': true, 'amd': true, 'ignore': ['\\?.*$']}],
   },
   plugins: [
