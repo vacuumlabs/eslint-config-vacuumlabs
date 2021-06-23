@@ -92,7 +92,6 @@ module.exports = {
     'no-path-concat': 2,
     'array-bracket-spacing': [2, 'never'],
     'block-spacing': [2, 'never'],
-    'brace-style': [2, '1tbs', {'allowSingleLine': true}],
     'comma-dangle': [1, 'always-multiline'],
     'comma-style': [2, 'last'],
     'computed-property-spacing': [2, 'never'],
