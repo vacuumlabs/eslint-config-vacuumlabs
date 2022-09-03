@@ -1,13 +1,8 @@
 'use strict';
 
 module.exports = {
-  parser: '@babel/eslint-parser',
   settings: {
-    'import/parser': 'babel-eslint',
     'import/ignore': ['node_modules', 'assets', '\\.(scss|less|css|json)$'],
-    'react': {
-      'version': 'detect',
-    },
   },
   rules: {
     'no-compare-neg-zero': 2,
@@ -145,35 +140,13 @@ module.exports = {
     'require-yield': 1,
     'rest-spread-spacing': 2,
     'template-curly-spacing': 2,
-    'react/jsx-boolean-value': 2,
-    'react/jsx-closing-bracket-location': [2, 'line-aligned'],
-    'react/jsx-curly-spacing': [2, 'never'],
-    'react/jsx-equals-spacing': [2, 'never'],
-    'react/jsx-indent': [2, 2],
-    'react/jsx-indent-props': [2, 2],
-    'react/jsx-key': 2,
-    'react/jsx-no-duplicate-props': 2,
-    'react/jsx-no-undef': 2,
-    'react/jsx-tag-spacing': 2,
-    'react/jsx-uses-react': 2,
-    'react/jsx-uses-vars': 2,
-    'react/jsx-wrap-multilines': 2,
-    'react/no-deprecated': 2,
-    'react/no-did-mount-set-state': 2,
-    'react/no-did-update-set-state': 2,
-    'react/no-unknown-property': 2,
-    'react/react-in-jsx-scope': 2,
-    'react/self-closing-comp': 2,
     'import/export': 2,
     'import/imports-first': 2,
     'import/named': 2,
     'import/namespace': [2, {allowComputed: true}],
     'import/no-unresolved': [2, {'commonjs': true, 'amd': true, 'ignore': ['\\?.*$']}],
   },
-  plugins: [
-    'react',
-    'import',
-  ],
+  plugins: ['import'],
   globals: {
     'Promise': true,
     'Map': true,
@@ -181,11 +154,9 @@ module.exports = {
   },
   parserOptions: {
     sourceType: 'module',
+    ecmaVersion: 'latest',
     ecmaFeatures: {
       'jsx': true
     }
-  },
-  env: {
-    es2021: true
   },
 }
