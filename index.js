@@ -146,7 +146,7 @@ module.exports = {
     'import/namespace': [2, {allowComputed: true}],
     'import/no-unresolved': [2, {'commonjs': true, 'amd': true, 'ignore': ['\\?.*$']}],
   },
-  plugins: ['import'],
+  plugins: [],
   globals: {
     'Promise': true,
     'Map': true,
