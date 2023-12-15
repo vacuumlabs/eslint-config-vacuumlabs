@@ -48,7 +48,7 @@ module.exports = {
     'no-empty-pattern': 2,
     'no-eval': 2,
     'no-extend-native': 2,
-    'no-fallthrough': 2,
+    'no-fallthrough': [2, {"allowEmptyCase": true}],
     'no-floating-decimal': 2,
     'no-global-assign': 2,
     'no-implicit-globals': 2,
