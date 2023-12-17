@@ -135,7 +135,7 @@ module.exports = {
     'no-var': 2,
     'object-shorthand': 2,
     'prefer-arrow-callback': [2, {"allowUnboundThis": false}],
-    'prefer-const': 1,
+    'prefer-const': [1, {"destructuring": "all"}],
     'prefer-numeric-literals': 2,
     'prefer-rest-params': 2,
     'prefer-spread': 2,
